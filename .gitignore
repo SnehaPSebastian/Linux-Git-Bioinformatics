@@ -1,0 +1,14 @@
+# Ignore all output files
+data/outputs/
+
+# Ignore large logs or temp files
+*.log
+*.tmp
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache (if you use Python later)
+__pycache__/
+*.pyc
