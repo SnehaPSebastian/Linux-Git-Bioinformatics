@@ -1,14 +1,11 @@
-# Ignore all output files
-data/outputs/
+# Ignore all full outputs
+data/outputs/*
 
-# Ignore large logs or temp files
-*.log
-*.tmp
+# But keep sample previews
+!data/outputs/genes_sample.txt
+!data/outputs/example_bed_sample.txt
+!data/outputs/letters_sample.txt
+!data/outputs/example_lengths_sample.txt
+!data/outputs/example_join_sample.txt
 
-# Ignore system files
-.DS_Store
-Thumbs.db
 
-# Ignore Python cache (if you use Python later)
-__pycache__/
-*.pyc
