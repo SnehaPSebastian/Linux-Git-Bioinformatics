@@ -14,3 +14,4 @@ grep 'gene_name "' "$GTF" \
 echo "genes.txt written:"
 wc -l "$OUT"
 head "$OUT"
+
